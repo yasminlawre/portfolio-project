@@ -13,20 +13,25 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-family: "Playfair Display", serif;
 }
 
 h1 {
   font-size: 96px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: "Poppins", sans-serif;
+  color: #272142;
 }
 
 p {
@@ -40,6 +45,10 @@ p {
 
 div {
   display: block;
+}
+
+.hero {
+  background-color: #f9f7fe;
 }
 
 .navigation-links {
