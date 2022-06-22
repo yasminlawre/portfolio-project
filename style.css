@@ -111,6 +111,10 @@ div {
   display: block;
 }
 
+.project-description {
+  padding: 120px 60px;
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -130,4 +134,15 @@ div {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
