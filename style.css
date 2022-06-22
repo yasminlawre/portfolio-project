@@ -13,6 +13,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -34,6 +35,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 div {
