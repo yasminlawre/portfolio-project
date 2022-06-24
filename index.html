@@ -37,23 +37,29 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/"
-          ><img src="/images/logo.png" class="logo d-none d-md-block" />
-          <img src="/images/small-logo.jpg" class="logo d-block d-md-none"
+        <a href="/" title="Homepage"
+          ><img
+            src="/images/logo.png"
+            alt="SheCodes logo"
+            class="logo d-none d-md-block" />
+          <img
+            src="/images/small-logo.jpg"
+            alt="Shecodes logo"
+            class="logo d-block d-md-none"
         /></a>
 
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About me">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Projects">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact me">Contact</a>
           </li>
         </ul>
       </nav>
@@ -67,7 +73,7 @@
         <a href="/contact.html" class="contact-link" title="Contact Yasmin"
           >Contact me</a
         >
-        <a href="about.html" class="about-link" title="About Yasmin"
+        <a href="/about.html" class="about-link" title="About Yasmin"
           >About me</a
         >
       </div>
@@ -92,7 +98,11 @@
             explicabo eum dolore.
           </p>
           <div class="mt-5">
-            <a href="#" class="primary-link" title="Yoga project"
+            <a
+              href="/work.html"
+              class="primary-link"
+              title="Yoga project"
+              target="_blank"
               >Launch Yoga App</a
             >
           </div>
@@ -108,10 +118,10 @@
             </p>
             <div class="mb-5 mt-5">
               <a
-                href="https://sprightly-paletas-ad99c2.netlify.app/"
+                href="/work.html"
                 class="primary-link"
                 title="Weather project"
-                target="blank"
+                target="_blank"
                 >Launch Weather App</a
               >
             </div>
@@ -141,7 +151,11 @@
               minima fugiat explicabo eum dolore.
             </p>
             <div class="mt-5">
-              <a href="#" class="primary-link" title="Yogurt project"
+              <a
+                href="/work.html"
+                class="primary-link"
+                title="Yogurt project"
+                target="_blank"
                 >Launch Yogurt App</a
               >
             </div>
@@ -149,32 +163,44 @@
         </div>
       </div>
       <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div class="contact-box justify-content-center mb-5 d-none d-md-flex">
           <div>
             <h4>Work enquiries</h4>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div>
-            <a href="" class="btn btn-branding mt-1">Contact me</a>
-          </div>
         </div>
 
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:yasminlawre111@gmail.com" class="email-link"
+          <a
+            href="mailto:yasminlawre111@gmail.com"
+            class="email-link"
+            title="email me"
             >yasminlawre111@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/" target="_blank"
+          <a href="https://www.instagram.com/" target="_blank" title="Instagram"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://github.com/yasminlawre" target="_blank"
+          <a
+            href="https://github.com/yasminlawre"
+            target="_blank"
+            title="GitHub"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://twitter.com/" target="_blank" title="Twitter">
             <i class="fa-brands fa-twitter"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          This project is coded by Yasmin, and it is
+          <a
+            href="https://github.com/yasminlawre/portfolio-project"
+            target="_blank"
+            class="github-link"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

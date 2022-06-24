@@ -121,21 +121,13 @@ footer .social-links a:hover {
   background: var(--primary-color);
 }
 
-.btn {
-  background-color: #6c63ff;
-  color: white;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-transform: capitalize;
-}
-
 .logo {
   max-height: 40px;
 }
 
 .hero {
   background-color: #f9f7fe;
-  padding: 160px 20px;
+  padding: 80px 20px;
   margin-bottom: 40px;
 }
 
@@ -225,7 +217,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -250,6 +242,11 @@ footer .social-links a:hover {
 
 .contact-box h4 {
   font-size: 48px;
+}
+
+.github-link {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {
