@@ -143,6 +143,16 @@ div {
   font-family: var(--default-font-family);
 }
 
+.yoga-photo,
+.weather-photo {
+  width: 400px;
+}
+
+.project-photos {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
