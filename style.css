@@ -153,7 +153,15 @@ div {
   justify-content: center;
 }
 
-.content-header {
+.content {
+  margin: 30px;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content h1 {
   font-size: 64px;
 }
 
