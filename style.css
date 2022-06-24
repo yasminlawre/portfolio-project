@@ -153,6 +153,26 @@ div {
   justify-content: center;
 }
 
+.content-header {
+  font-size: 64px;
+}
+
+.content h2 {
+  font-size: 24px;
+}
+
+.content h3 {
+  font-size: 14px;
+}
+
+.work-photo {
+  display: flex;
+  justify-content: center;
+  width: 560px;
+  height: auto;
+  size: 25px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
